@@ -13,6 +13,7 @@ const getSum = () => {
 	let tr = document.createElement("tr")
 	let td = document.createElement("td")
 	td.textContent = "Total Price " + sum;
+	  td.colSpan = 2;
 	tr.appendChild(td)
 	table.appendChild(tr)
 	
